@@ -148,7 +148,7 @@ def load_graphs_from_hdf5(filename):
     return graphs, label
 
 if __name__ == "__main__":
-    log_name = sys.argv[1]
+    log_name = 'sepsis'
     current_time = time.strftime("%d.%m.%y-%H.%M", time.localtime())
 
     outfile = open(log_name + '.log', 'w')
